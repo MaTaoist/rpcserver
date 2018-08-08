@@ -1,0 +1,213 @@
+2018-08-07 20:09:59,271  INFO   ---  start server  --- - ./src/main.cpp:11
+2018-08-07 20:09:59,272  INFO   Registering HTTP handler for /GetBasicInformation - ./src/server.cpp:62
+2018-08-07 20:14:46,502  INFO   Received a POST request for /GetBasicInformation from  - ./src/server.cpp:286
+2018-08-07 20:14:46,503  INFO   HEADER : Host : 127.0.01:8080
+User-Agent : curl/7.61.0
+Accept : */*
+Content-Type : application/json
+Content-Length : 2
+ - ./src/server.cpp:287
+2018-08-07 20:14:46,503  INFO   FOUND_PATH : /GetBasicInformation - ./src/server.cpp:334
+2018-08-07 20:14:46,507  INFO   CURL_RESULT : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:461
+2018-08-07 20:14:46,508  INFO   CURL_RESULT : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:461
+2018-08-07 20:14:46,522  INFO   CURL_RESULT : {"result":null,"error":{"code":-32700,"message":"Parse error"},"id":null}
+ - ./src/server.cpp:461
+2018-08-07 20:14:46,523  INFO   CURL_RESULT : {"result":null,"error":{"code":-32700,"message":"Parse error"},"id":null}
+ - ./src/server.cpp:461
+2018-08-07 20:14:46,523  INFO   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ - ./src/server.cpp:10
+2018-08-07 20:14:55,376  INFO   Received a POST request for /GetBasicInformation from  - ./src/server.cpp:286
+2018-08-07 20:14:55,376  INFO   HEADER : Host : 127.0.0.1:8080
+User-Agent : curl/7.61.0
+Accept : */*
+Content-Type : application/json
+Content-Length : 2
+ - ./src/server.cpp:287
+2018-08-07 20:14:55,376  INFO   FOUND_PATH : /GetBasicInformation - ./src/server.cpp:334
+2018-08-07 20:14:55,376  INFO   CURL_RESULT : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:461
+2018-08-07 20:14:55,377  INFO   CURL_RESULT : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:461
+2018-08-07 20:14:55,377  INFO   CURL_RESULT : {"result":null,"error":{"code":-32700,"message":"Parse error"},"id":null}
+ - ./src/server.cpp:461
+2018-08-07 20:14:55,378  INFO   CURL_RESULT : {"result":null,"error":{"code":-32700,"message":"Parse error"},"id":null}
+ - ./src/server.cpp:461
+2018-08-07 20:14:55,378  INFO   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ - ./src/server.cpp:10
+2018-08-07 20:21:30,998  INFO   ---  start server  --- - ./src/main.cpp:11
+2018-08-07 20:21:30,998  INFO   Registering HTTP handler for /GetBasicInformation - ./src/server.cpp:62
+2018-08-07 20:21:30,998  FATAL  CRASH HANDLED; Application has crashed due to [SIGSEGV] signal - ./include/easylogging++.h:5627
+2018-08-07 20:21:30,998  WARN   Aborting application. Reason: Fatal log at [./include/easylogging++.h:5627] - ./include/easylogging++.h:5627
+2018-08-07 20:22:00,183  INFO   ---  stop server  --- - ./src/main.cpp:52
+2018-08-07 20:22:02,806  INFO   ---  start server  --- - ./src/main.cpp:11
+2018-08-07 20:22:02,806  INFO   Registering HTTP handler for /GetBasicInformation - ./src/server.cpp:62
+2018-08-07 20:22:19,438  INFO   Received a POST request for /GetBasicInformation from  - ./src/server.cpp:286
+2018-08-07 20:22:19,438  INFO   HEADER : Host : 127.0.01:8080
+User-Agent : curl/7.61.0
+Accept : */*
+Content-Type : application/json
+Content-Length : 2
+ - ./src/server.cpp:287
+2018-08-07 20:22:19,438  INFO   FOUND_PATH : /GetBasicInformation - ./src/server.cpp:334
+2018-08-07 20:22:19,441  INFO   CURL_RESULT : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:465
+2018-08-07 20:22:19,441  INFO   RESPONSE : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:357
+2018-08-07 20:22:19,441  INFO   CURL_RESULT : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:465
+2018-08-07 20:22:19,441  INFO   RESPONSEqqqq : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:359
+2018-08-07 20:22:19,442  INFO   CURL_RESULT : {"result":null,"error":{"code":-32700,"message":"Parse error"},"id":null}
+ - ./src/server.cpp:465
+2018-08-07 20:22:19,442  INFO   RESPONSEbbbb : {"result":null,"error":{"code":-32700,"message":"Parse error"},"id":null}
+ - ./src/server.cpp:361
+2018-08-07 20:22:19,443  INFO   CURL_RESULT : {"result":null,"error":{"code":-32700,"message":"Parse error"},"id":null}
+ - ./src/server.cpp:465
+2018-08-07 20:22:19,444  INFO   RESPONSEdddddd : {"result":null,"error":{"code":-32700,"message":"Parse error"},"id":null}
+ - ./src/server.cpp:363
+2018-08-07 20:22:19,444  INFO   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ - ./src/server.cpp:10
+2018-08-07 20:29:20,381  INFO   ---  stop server  --- - ./src/main.cpp:52
+2018-08-07 20:39:11,613  INFO   ---  start server  --- - ./src/main.cpp:11
+2018-08-07 20:39:11,613  INFO   Registering HTTP handler for /GetBasicInformation - ./src/server.cpp:62
+2018-08-07 20:39:19,382  INFO   Received a POST request for /GetBasicInformation from  - ./src/server.cpp:286
+2018-08-07 20:39:19,382  INFO   HEADER : Host : 127.0.01:8080
+User-Agent : curl/7.61.0
+Accept : */*
+Content-Type : application/json
+Content-Length : 2
+ - ./src/server.cpp:287
+2018-08-07 20:39:19,382  INFO   FOUND_PATH : /GetBasicInformation - ./src/server.cpp:334
+2018-08-07 20:39:19,385  INFO   CURL_RESULT : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:471
+2018-08-07 20:39:19,385  INFO   RESPONSE : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:357
+2018-08-07 20:39:19,386  INFO   CURL_RESULT : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:471
+2018-08-07 20:39:19,386  INFO   RESPONSEqqqq : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:359
+2018-08-07 20:39:19,386  INFO   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ - ./src/server.cpp:10
+2018-08-07 20:39:47,421  INFO   ---  stop server  --- - ./src/main.cpp:52
+2018-08-07 20:41:54,519  INFO   ---  start server  --- - ./src/main.cpp:11
+2018-08-07 20:41:54,519  INFO   Registering HTTP handler for /GetBasicInformation - ./src/server.cpp:62
+2018-08-07 20:41:58,415  INFO   Received a POST request for /GetBasicInformation from  - ./src/server.cpp:286
+2018-08-07 20:41:58,415  INFO   HEADER : Host : 127.0.01:8080
+User-Agent : curl/7.61.0
+Accept : */*
+Content-Type : application/json
+Content-Length : 2
+ - ./src/server.cpp:287
+2018-08-07 20:41:58,415  INFO   FOUND_PATH : /GetBasicInformation - ./src/server.cpp:334
+2018-08-07 20:41:58,418  INFO   CURL_RESULT : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:473
+2018-08-07 20:41:58,418  INFO   RESPONSE : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:357
+2018-08-07 20:41:58,419  INFO   CURL_RESULT : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:473
+2018-08-07 20:41:58,419  INFO   RESPONSEqqqq : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:359
+2018-08-07 20:41:58,419  INFO   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ - ./src/server.cpp:10
+2018-08-07 20:42:18,485  INFO   ---  stop server  --- - ./src/main.cpp:52
+2018-08-07 20:42:39,353  INFO   ---  start server  --- - ./src/main.cpp:11
+2018-08-07 20:42:39,353  INFO   Registering HTTP handler for /GetBasicInformation - ./src/server.cpp:62
+2018-08-07 20:42:44,177  INFO   Received a POST request for /GetBasicInformation from  - ./src/server.cpp:286
+2018-08-07 20:42:44,177  INFO   HEADER : Host : 127.0.01:8080
+User-Agent : curl/7.61.0
+Accept : */*
+Content-Type : application/json
+Content-Length : 2
+ - ./src/server.cpp:287
+2018-08-07 20:42:44,177  INFO   FOUND_PATH : /GetBasicInformation - ./src/server.cpp:334
+2018-08-07 20:42:44,180  INFO   CURL_RESULT : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:473
+2018-08-07 20:42:44,180  INFO   RESPONSE : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:357
+2018-08-07 20:42:44,181  INFO   CURL_RESULT : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:473
+2018-08-07 20:42:44,181  INFO   RESPONSEqqqq : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:359
+2018-08-07 20:42:44,181  INFO   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ - ./src/server.cpp:10
+2018-08-07 20:42:57,704  INFO   ---  stop server  --- - ./src/main.cpp:52
+2018-08-07 20:48:51,195  INFO   ---  start server  --- - ./src/main.cpp:11
+2018-08-07 20:48:51,195  INFO   Registering HTTP handler for /GetBasicInformation - ./src/server.cpp:62
+2018-08-07 20:48:55,392  INFO   Received a POST request for /GetBasicInformation from  - ./src/server.cpp:286
+2018-08-07 20:48:55,393  INFO   HEADER : Host : 127.0.01:8080
+User-Agent : curl/7.61.0
+Accept : */*
+Content-Type : application/json
+Content-Length : 2
+ - ./src/server.cpp:287
+2018-08-07 20:48:55,393  INFO   FOUND_PATH : /GetBasicInformation - ./src/server.cpp:334
+2018-08-07 20:48:55,396  INFO   CURL_RESULT : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:473
+2018-08-07 20:48:55,396  INFO   RESPONSE : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:357
+2018-08-07 20:48:55,396  INFO   CURL_RESULT : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:473
+2018-08-07 20:48:55,396  INFO   RESPONSEqqqq : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:359
+2018-08-07 20:48:55,396  INFO   RESPONSEnum : 46 - ./src/server.cpp:365
+2018-08-07 20:48:55,396  INFO   RESPONSEbbbb :  - ./src/server.cpp:367
+2018-08-07 20:48:55,397  INFO   CURL_RESULT : {"result":null,"error":{"code":-5,"message":"Block not found"},"id":"curltest"}
+ - ./src/server.cpp:473
+2018-08-07 20:48:55,397  INFO   RESPONSEdddddd : {"result":null,"error":{"code":-5,"message":"Block not found"},"id":"curltest"}
+ - ./src/server.cpp:371
+2018-08-07 20:48:55,397  INFO   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ - ./src/server.cpp:10
+2018-08-07 20:49:15,626  INFO   ---  stop server  --- - ./src/main.cpp:52
+2018-08-07 20:51:00,372  INFO   ---  start server  --- - ./src/main.cpp:11
+2018-08-07 20:51:00,372  INFO   Registering HTTP handler for /GetBasicInformation - ./src/server.cpp:62
+2018-08-07 20:51:17,318  INFO   Received a POST request for /GetBasicInformation from  - ./src/server.cpp:286
+2018-08-07 20:51:17,318  INFO   HEADER : Host : 127.0.01:8080
+User-Agent : curl/7.61.0
+Accept : */*
+Content-Type : application/json
+Content-Length : 2
+ - ./src/server.cpp:287
+2018-08-07 20:51:17,318  INFO   FOUND_PATH : /GetBasicInformation - ./src/server.cpp:334
+2018-08-07 20:51:17,320  INFO   CURL_RESULT : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:473
+2018-08-07 20:51:17,320  INFO   RESPONSE : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:357
+2018-08-07 20:51:17,320  INFO   CURL_RESULT : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:473
+2018-08-07 20:51:17,320  INFO   RESPONSEqqqq : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:359
+2018-08-07 20:51:17,320  INFO   RESPONSEnum : 46 - ./src/server.cpp:365
+2018-08-07 20:51:17,333  INFO   CURL_RESULT : {"result":null,"error":{"code":-1,"message":"JSON value is not an integer as expected"},"id":"curltest"}
+ - ./src/server.cpp:473
+2018-08-07 20:51:17,333  INFO   RESPONSEbbbb : {"result":null,"error":{"code":-1,"message":"JSON value is not an integer as expected"},"id":"curltest"}
+ - ./src/server.cpp:367
+2018-08-07 20:51:17,334  INFO   CURL_RESULT : {"result":null,"error":{"code":-32700,"message":"Parse error"},"id":null}
+ - ./src/server.cpp:473
+2018-08-07 20:51:17,334  INFO   RESPONSEdddddd : {"result":null,"error":{"code":-32700,"message":"Parse error"},"id":null}
+ - ./src/server.cpp:371
+2018-08-07 20:51:17,335  INFO   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ - ./src/server.cpp:10
+2018-08-07 20:53:31,695  INFO   ---  stop server  --- - ./src/main.cpp:52
+2018-08-07 20:56:09,355  INFO   ---  start server  --- - ./src/main.cpp:11
+2018-08-07 20:56:09,355  INFO   Registering HTTP handler for /GetBasicInformation - ./src/server.cpp:62
+2018-08-07 20:56:12,700  INFO   Received a POST request for /GetBasicInformation from  - ./src/server.cpp:286
+2018-08-07 20:56:12,700  INFO   HEADER : Host : 127.0.01:8080
+User-Agent : curl/7.61.0
+Accept : */*
+Content-Type : application/json
+Content-Length : 2
+ - ./src/server.cpp:287
+2018-08-07 20:56:12,700  INFO   FOUND_PATH : /GetBasicInformation - ./src/server.cpp:334
+2018-08-07 20:56:12,703  INFO   CURL_RESULT : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:473
+2018-08-07 20:56:12,703  INFO   RESPONSE : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:357
+2018-08-07 20:56:12,703  INFO   CURL_RESULT : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:473
+2018-08-07 20:56:12,703  INFO   RESPONSEqqqq : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:359
+2018-08-07 20:56:12,703  INFO   RESPONSEnum : 46 - ./src/server.cpp:365
+2018-08-07 20:56:12,704  INFO   CURL_RESULT : {"result":null,"error":{"code":-32700,"message":"Parse error"},"id":null}
+ - ./src/server.cpp:473
+2018-08-07 20:56:12,704  INFO   RESPONSEbbbb : {"result":null,"error":{"code":-32700,"message":"Parse error"},"id":null}
+ - ./src/server.cpp:367
+2018-08-07 20:56:12,704  INFO   CURL_RESULT : {"result":null,"error":{"code":-32700,"message":"Parse error"},"id":null}
+ - ./src/server.cpp:473
+2018-08-07 20:56:12,704  INFO   RESPONSEdddddd : {"result":null,"error":{"code":-32700,"message":"Parse error"},"id":null}
+ - ./src/server.cpp:371
+2018-08-07 20:56:12,704  INFO   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ - ./src/server.cpp:10
+2018-08-07 21:02:01,195  INFO   ---  stop server  --- - ./src/main.cpp:52

@@ -1,0 +1,382 @@
+2018-08-07 22:07:35,104  INFO   ---  start server  --- - ./src/main.cpp:11
+2018-08-07 22:07:35,104  INFO   Registering HTTP handler for /GetBasicInformation - ./src/server.cpp:62
+2018-08-07 22:07:38,163  INFO   Received a POST request for /GetBasicInformation from  - ./src/server.cpp:286
+2018-08-07 22:07:38,164  INFO   HEADER : Host : 127.0.01:8080
+User-Agent : curl/7.61.0
+Accept : */*
+Content-Type : application/json
+Content-Length : 2
+ - ./src/server.cpp:287
+2018-08-07 22:07:38,164  INFO   FOUND_PATH : /GetBasicInformation - ./src/server.cpp:334
+2018-08-07 22:07:38,164  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getbalance", "params": [] } - ./src/server.cpp:453
+2018-08-07 22:07:38,167  INFO   CURL_RESULT : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:484
+2018-08-07 22:07:38,167  INFO   RESPONSE : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:357
+2018-08-07 22:07:38,167  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblockcount", "params": [] } - ./src/server.cpp:453
+2018-08-07 22:07:38,167  INFO   CURL_RESULT : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:484
+2018-08-07 22:07:38,167  INFO   RESPONSEqqqq : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:359
+2018-08-07 22:07:38,167  INFO   ------------------------------------ - ./src/server.cpp:360
+2018-08-07 22:07:38,168  INFO   RESPONSEnum : 46 - ./src/server.cpp:366
+2018-08-07 22:07:38,168  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblockhash", "params": [46] } - ./src/server.cpp:453
+2018-08-07 22:07:38,168  INFO   CURL_RESULT : {"result":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","error":null,"id":"curltest"}
+ - ./src/server.cpp:484
+2018-08-07 22:07:38,168  INFO   RESPONSEbbbb : {"result":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","error":null,"id":"curltest"}
+ - ./src/server.cpp:368
+2018-08-07 22:07:38,168  INFO   ------------------------------------------ - ./src/server.cpp:369
+2018-08-07 22:07:38,168  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblock", "params": ["000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159"] } - ./src/server.cpp:453
+2018-08-07 22:07:38,169  INFO   CURL_RESULT : {"result":{"hash":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","confirmations":1,"strippedsize":166,"size":166,"weight":664,"height":46,"version":536870912,"versionHex":"20000000","merkleroot":"3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e","tx":["3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e"],"time":1533283916,"mediantime":1533283046,"nonce":3665297152,"bits":"1d00ffff","difficulty":1,"chainwork":"0000000000000000000000000000000000000000000000000000002f002f002f","nTx":1,"previousblockhash":"00000000d9f3f9758ec053dc69cc8088a79c535097d63549858b0a1d4199691d"},"error":null,"id":"curltest"}
+ - ./src/server.cpp:484
+2018-08-07 22:07:38,169  INFO   RESPONSEdddddd : {"result":{"hash":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","confirmations":1,"strippedsize":166,"size":166,"weight":664,"height":46,"version":536870912,"versionHex":"20000000","merkleroot":"3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e","tx":["3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e"],"time":1533283916,"mediantime":1533283046,"nonce":3665297152,"bits":"1d00ffff","difficulty":1,"chainwork":"0000000000000000000000000000000000000000000000000000002f002f002f","nTx":1,"previousblockhash":"00000000d9f3f9758ec053dc69cc8088a79c535097d63549858b0a1d4199691d"},"error":null,"id":"curltest"}
+ - ./src/server.cpp:374
+2018-08-07 22:07:38,169  INFO   ------------------------------------- - ./src/server.cpp:376
+2018-08-07 22:07:38,170  INFO   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ - ./src/server.cpp:10
+2018-08-07 22:11:19,612  INFO   ---  stop server  --- - ./src/main.cpp:52
+2018-08-07 22:11:33,304  INFO   ---  start server  --- - ./src/main.cpp:11
+2018-08-07 22:11:33,304  INFO   Registering HTTP handler for /GetBasicInformation - ./src/server.cpp:62
+2018-08-07 22:11:36,605  INFO   Received a POST request for /GetBasicInformation from  - ./src/server.cpp:286
+2018-08-07 22:11:36,605  INFO   HEADER : Host : 127.0.01:8080
+User-Agent : curl/7.61.0
+Accept : */*
+Content-Type : application/json
+Content-Length : 2
+ - ./src/server.cpp:287
+2018-08-07 22:11:36,605  INFO   FOUND_PATH : /GetBasicInformation - ./src/server.cpp:334
+2018-08-07 22:11:36,605  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getbalance", "params": [] } - ./src/server.cpp:455
+2018-08-07 22:11:36,607  INFO   CURL_RESULT : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:486
+2018-08-07 22:11:36,607  INFO   RESPONSE : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:357
+2018-08-07 22:11:36,607  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblockcount", "params": [] } - ./src/server.cpp:455
+2018-08-07 22:11:36,607  INFO   CURL_RESULT : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:486
+2018-08-07 22:11:36,608  INFO   RESPONSEqqqq : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:359
+2018-08-07 22:11:36,608  INFO   ------------------------------------ - ./src/server.cpp:360
+2018-08-07 22:11:36,608  INFO   RESPONSEnum : 46 - ./src/server.cpp:366
+2018-08-07 22:11:36,608  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblockhash", "params": [46] } - ./src/server.cpp:455
+2018-08-07 22:11:36,608  INFO   CURL_RESULT : {"result":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","error":null,"id":"curltest"}
+ - ./src/server.cpp:486
+2018-08-07 22:11:36,608  INFO   RESPONSEbbbb : {"result":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","error":null,"id":"curltest"}
+ - ./src/server.cpp:368
+2018-08-07 22:11:36,608  INFO   ------------------------------------------ - ./src/server.cpp:369
+2018-08-07 22:11:36,608  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblock", "params": ["000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159"] } - ./src/server.cpp:455
+2018-08-07 22:11:36,609  INFO   CURL_RESULT : {"result":{"hash":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","confirmations":1,"strippedsize":166,"size":166,"weight":664,"height":46,"version":536870912,"versionHex":"20000000","merkleroot":"3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e","tx":["3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e"],"time":1533283916,"mediantime":1533283046,"nonce":3665297152,"bits":"1d00ffff","difficulty":1,"chainwork":"0000000000000000000000000000000000000000000000000000002f002f002f","nTx":1,"previousblockhash":"00000000d9f3f9758ec053dc69cc8088a79c535097d63549858b0a1d4199691d"},"error":null,"id":"curltest"}
+ - ./src/server.cpp:486
+2018-08-07 22:11:36,609  INFO   RESPONSEdddddd : {"result":{"hash":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","confirmations":1,"strippedsize":166,"size":166,"weight":664,"height":46,"version":536870912,"versionHex":"20000000","merkleroot":"3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e","tx":["3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e"],"time":1533283916,"mediantime":1533283046,"nonce":3665297152,"bits":"1d00ffff","difficulty":1,"chainwork":"0000000000000000000000000000000000000000000000000000002f002f002f","nTx":1,"previousblockhash":"00000000d9f3f9758ec053dc69cc8088a79c535097d63549858b0a1d4199691d"},"error":null,"id":"curltest"}
+ - ./src/server.cpp:374
+2018-08-07 22:11:36,609  INFO   ------------------------------------- - ./src/server.cpp:376
+2018-08-07 22:11:36,609  INFO   json ::{"error":null,"id":"curltest","result":{"bits":"1d00ffff","chainwork":"0000000000000000000000000000000000000000000000000000002f002f002f","confirmations":1,"difficulty":1,"hash":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","height":46,"mediantime":1533283046,"merkleroot":"3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e","nTx":1,"nonce":3665297152,"previousblockhash":"00000000d9f3f9758ec053dc69cc8088a79c535097d63549858b0a1d4199691d","size":166,"strippedsize":166,"time":1533283916,"tx":["3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e"],"version":536870912,"versionHex":"20000000","weight":664}} - ./src/server.cpp:379
+2018-08-07 22:11:36,609  INFO   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ - ./src/server.cpp:10
+2018-08-07 22:13:02,076  INFO   ---  stop server  --- - ./src/main.cpp:52
+2018-08-07 22:13:13,579  INFO   ---  start server  --- - ./src/main.cpp:11
+2018-08-07 22:13:13,579  INFO   Registering HTTP handler for /GetBasicInformation - ./src/server.cpp:62
+2018-08-07 22:13:37,641  INFO   Received a POST request for /GetBasicInformation from  - ./src/server.cpp:286
+2018-08-07 22:13:37,641  INFO   HEADER : Host : 127.0.01:8080
+User-Agent : curl/7.61.0
+Accept : */*
+Content-Type : application/json
+Content-Length : 2
+ - ./src/server.cpp:287
+2018-08-07 22:13:37,641  INFO   FOUND_PATH : /GetBasicInformation - ./src/server.cpp:334
+2018-08-07 22:13:37,641  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getbalance", "params": [] } - ./src/server.cpp:456
+2018-08-07 22:13:37,643  INFO   CURL_RESULT : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:487
+2018-08-07 22:13:37,643  INFO   RESPONSE : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:357
+2018-08-07 22:13:37,643  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblockcount", "params": [] } - ./src/server.cpp:456
+2018-08-07 22:13:37,644  INFO   CURL_RESULT : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:487
+2018-08-07 22:13:37,644  INFO   RESPONSEqqqq : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:359
+2018-08-07 22:13:37,644  INFO   ------------------------------------ - ./src/server.cpp:360
+2018-08-07 22:13:37,644  INFO   RESPONSEnum : 46 - ./src/server.cpp:366
+2018-08-07 22:13:37,644  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblockhash", "params": [46] } - ./src/server.cpp:456
+2018-08-07 22:13:37,644  INFO   CURL_RESULT : {"result":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","error":null,"id":"curltest"}
+ - ./src/server.cpp:487
+2018-08-07 22:13:37,645  INFO   RESPONSEbbbb : {"result":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","error":null,"id":"curltest"}
+ - ./src/server.cpp:368
+2018-08-07 22:13:37,645  INFO   ------------------------------------------ - ./src/server.cpp:369
+2018-08-07 22:13:37,645  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblock", "params": ["000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159"] } - ./src/server.cpp:456
+2018-08-07 22:13:37,645  INFO   CURL_RESULT : {"result":{"hash":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","confirmations":1,"strippedsize":166,"size":166,"weight":664,"height":46,"version":536870912,"versionHex":"20000000","merkleroot":"3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e","tx":["3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e"],"time":1533283916,"mediantime":1533283046,"nonce":3665297152,"bits":"1d00ffff","difficulty":1,"chainwork":"0000000000000000000000000000000000000000000000000000002f002f002f","nTx":1,"previousblockhash":"00000000d9f3f9758ec053dc69cc8088a79c535097d63549858b0a1d4199691d"},"error":null,"id":"curltest"}
+ - ./src/server.cpp:487
+2018-08-07 22:13:37,645  INFO   RESPONSEdddddd : {"result":{"hash":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","confirmations":1,"strippedsize":166,"size":166,"weight":664,"height":46,"version":536870912,"versionHex":"20000000","merkleroot":"3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e","tx":["3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e"],"time":1533283916,"mediantime":1533283046,"nonce":3665297152,"bits":"1d00ffff","difficulty":1,"chainwork":"0000000000000000000000000000000000000000000000000000002f002f002f","nTx":1,"previousblockhash":"00000000d9f3f9758ec053dc69cc8088a79c535097d63549858b0a1d4199691d"},"error":null,"id":"curltest"}
+ - ./src/server.cpp:374
+2018-08-07 22:13:37,645  INFO   ------------------------------------- - ./src/server.cpp:376
+2018-08-07 22:13:37,645  INFO   json ::{"error":null,"id":"curltest","result":{"bits":"1d00ffff","chainwork":"0000000000000000000000000000000000000000000000000000002f002f002f","confirmations":1,"difficulty":1,"hash":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","height":46,"mediantime":1533283046,"merkleroot":"3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e","nTx":1,"nonce":3665297152,"previousblockhash":"00000000d9f3f9758ec053dc69cc8088a79c535097d63549858b0a1d4199691d","size":166,"strippedsize":166,"time":1533283916,"tx":["3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e"],"version":536870912,"versionHex":"20000000","weight":664}} - ./src/server.cpp:379
+2018-08-07 22:13:37,646  INFO   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ - ./src/server.cpp:10
+2018-08-07 22:13:47,565  INFO   ---  stop server  --- - ./src/main.cpp:52
+2018-08-07 22:13:49,392  INFO   ---  start server  --- - ./src/main.cpp:11
+2018-08-07 22:13:49,392  INFO   Registering HTTP handler for /GetBasicInformation - ./src/server.cpp:62
+2018-08-07 22:13:54,463  INFO   Received a POST request for /GetBasicInformation from  - ./src/server.cpp:286
+2018-08-07 22:13:54,463  INFO   HEADER : Host : 127.0.01:8080
+User-Agent : curl/7.61.0
+Accept : */*
+Content-Type : application/json
+Content-Length : 2
+ - ./src/server.cpp:287
+2018-08-07 22:13:54,463  INFO   FOUND_PATH : /GetBasicInformation - ./src/server.cpp:334
+2018-08-07 22:13:54,463  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getbalance", "params": [] } - ./src/server.cpp:456
+2018-08-07 22:13:54,466  INFO   CURL_RESULT : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:487
+2018-08-07 22:13:54,466  INFO   RESPONSE : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:357
+2018-08-07 22:13:54,466  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblockcount", "params": [] } - ./src/server.cpp:456
+2018-08-07 22:13:54,467  INFO   CURL_RESULT : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:487
+2018-08-07 22:13:54,467  INFO   RESPONSEqqqq : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:359
+2018-08-07 22:13:54,467  INFO   ------------------------------------ - ./src/server.cpp:360
+2018-08-07 22:13:54,467  INFO   RESPONSEnum : 46 - ./src/server.cpp:366
+2018-08-07 22:13:54,467  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblockhash", "params": [46] } - ./src/server.cpp:456
+2018-08-07 22:13:54,467  INFO   CURL_RESULT : {"result":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","error":null,"id":"curltest"}
+ - ./src/server.cpp:487
+2018-08-07 22:13:54,468  INFO   RESPONSEbbbb : {"result":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","error":null,"id":"curltest"}
+ - ./src/server.cpp:368
+2018-08-07 22:13:54,468  INFO   ------------------------------------------ - ./src/server.cpp:369
+2018-08-07 22:13:54,468  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblock", "params": ["000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159"] } - ./src/server.cpp:456
+2018-08-07 22:13:54,468  INFO   CURL_RESULT : {"result":{"hash":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","confirmations":1,"strippedsize":166,"size":166,"weight":664,"height":46,"version":536870912,"versionHex":"20000000","merkleroot":"3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e","tx":["3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e"],"time":1533283916,"mediantime":1533283046,"nonce":3665297152,"bits":"1d00ffff","difficulty":1,"chainwork":"0000000000000000000000000000000000000000000000000000002f002f002f","nTx":1,"previousblockhash":"00000000d9f3f9758ec053dc69cc8088a79c535097d63549858b0a1d4199691d"},"error":null,"id":"curltest"}
+ - ./src/server.cpp:487
+2018-08-07 22:13:54,468  INFO   RESPONSEdddddd : {"result":{"hash":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","confirmations":1,"strippedsize":166,"size":166,"weight":664,"height":46,"version":536870912,"versionHex":"20000000","merkleroot":"3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e","tx":["3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e"],"time":1533283916,"mediantime":1533283046,"nonce":3665297152,"bits":"1d00ffff","difficulty":1,"chainwork":"0000000000000000000000000000000000000000000000000000002f002f002f","nTx":1,"previousblockhash":"00000000d9f3f9758ec053dc69cc8088a79c535097d63549858b0a1d4199691d"},"error":null,"id":"curltest"}
+ - ./src/server.cpp:374
+2018-08-07 22:13:54,468  INFO   ------------------------------------- - ./src/server.cpp:376
+2018-08-07 22:13:54,468  INFO   json ::{"error":null,"id":"curltest","result":{"bits":"1d00ffff","chainwork":"0000000000000000000000000000000000000000000000000000002f002f002f","confirmations":1,"difficulty":1,"hash":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","height":46,"mediantime":1533283046,"merkleroot":"3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e","nTx":1,"nonce":3665297152,"previousblockhash":"00000000d9f3f9758ec053dc69cc8088a79c535097d63549858b0a1d4199691d","size":166,"strippedsize":166,"time":1533283916,"tx":["3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e"],"version":536870912,"versionHex":"20000000","weight":664}} - ./src/server.cpp:379
+2018-08-07 22:13:54,469  INFO   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ - ./src/server.cpp:10
+2018-08-07 22:16:15,166  INFO   ---  stop server  --- - ./src/main.cpp:52
+2018-08-07 22:22:39,072  INFO   ---  start server  --- - ./src/main.cpp:11
+2018-08-07 22:22:39,081  INFO   Registering HTTP handler for /GetBasicInformation - ./src/server.cpp:62
+2018-08-07 22:22:42,388  INFO   Received a POST request for /GetBasicInformation from  - ./src/server.cpp:286
+2018-08-07 22:22:42,388  INFO   HEADER : Host : 127.0.01:8080
+User-Agent : curl/7.61.0
+Accept : */*
+Content-Type : application/json
+Content-Length : 2
+ - ./src/server.cpp:287
+2018-08-07 22:22:42,388  INFO   FOUND_PATH : /GetBasicInformation - ./src/server.cpp:334
+2018-08-07 22:22:42,388  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getbalance", "params": [] } - ./src/server.cpp:457
+2018-08-07 22:22:42,390  INFO   CURL_RESULT : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:488
+2018-08-07 22:22:42,390  INFO   RESPONSE : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:357
+2018-08-07 22:22:42,390  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblockcount", "params": [] } - ./src/server.cpp:457
+2018-08-07 22:22:42,390  INFO   CURL_RESULT : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:488
+2018-08-07 22:22:42,390  INFO   RESPONSEqqqq : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:359
+2018-08-07 22:22:42,390  INFO   ------------------------------------ - ./src/server.cpp:360
+2018-08-07 22:22:42,391  INFO   RESPONSEnum : 46 - ./src/server.cpp:366
+2018-08-07 22:22:42,391  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblockhash", "params": [46] } - ./src/server.cpp:457
+2018-08-07 22:22:42,391  INFO   CURL_RESULT : {"result":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","error":null,"id":"curltest"}
+ - ./src/server.cpp:488
+2018-08-07 22:22:42,391  INFO   RESPONSEbbbb : {"result":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","error":null,"id":"curltest"}
+ - ./src/server.cpp:368
+2018-08-07 22:22:42,391  INFO   ------------------------------------------ - ./src/server.cpp:369
+2018-08-07 22:22:42,391  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblock", "params": ["000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159"] } - ./src/server.cpp:457
+2018-08-07 22:22:42,393  INFO   CURL_RESULT : {"result":{"hash":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","confirmations":1,"strippedsize":166,"size":166,"weight":664,"height":46,"version":536870912,"versionHex":"20000000","merkleroot":"3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e","tx":["3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e"],"time":1533283916,"mediantime":1533283046,"nonce":3665297152,"bits":"1d00ffff","difficulty":1,"chainwork":"0000000000000000000000000000000000000000000000000000002f002f002f","nTx":1,"previousblockhash":"00000000d9f3f9758ec053dc69cc8088a79c535097d63549858b0a1d4199691d"},"error":null,"id":"curltest"}
+ - ./src/server.cpp:488
+2018-08-07 22:22:42,394  INFO   RESPONSEdddddd : {"result":{"hash":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","confirmations":1,"strippedsize":166,"size":166,"weight":664,"height":46,"version":536870912,"versionHex":"20000000","merkleroot":"3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e","tx":["3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e"],"time":1533283916,"mediantime":1533283046,"nonce":3665297152,"bits":"1d00ffff","difficulty":1,"chainwork":"0000000000000000000000000000000000000000000000000000002f002f002f","nTx":1,"previousblockhash":"00000000d9f3f9758ec053dc69cc8088a79c535097d63549858b0a1d4199691d"},"error":null,"id":"curltest"}
+ - ./src/server.cpp:374
+2018-08-07 22:22:42,394  INFO   ------------------------------------- - ./src/server.cpp:376
+2018-08-07 22:22:42,394  INFO   json ::{"error":null,"id":"curltest","result":{"bits":"1d00ffff","chainwork":"0000000000000000000000000000000000000000000000000000002f002f002f","confirmations":1,"difficulty":1,"hash":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","height":46,"mediantime":1533283046,"merkleroot":"3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e","nTx":1,"nonce":3665297152,"previousblockhash":"00000000d9f3f9758ec053dc69cc8088a79c535097d63549858b0a1d4199691d","size":166,"strippedsize":166,"time":1533283916,"tx":["3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e"],"version":536870912,"versionHex":"20000000","weight":664}} - ./src/server.cpp:379
+2018-08-07 22:22:42,394  INFO   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ - ./src/server.cpp:10
+2018-08-07 22:32:25,395  INFO   ---  stop server  --- - ./src/main.cpp:52
+2018-08-07 22:32:39,170  INFO   ---  start server  --- - ./src/main.cpp:11
+2018-08-07 22:32:39,181  INFO   Registering HTTP handler for /GetBasicInformation - ./src/server.cpp:62
+2018-08-07 22:32:42,455  INFO   Received a POST request for /GetBasicInformation from  - ./src/server.cpp:286
+2018-08-07 22:32:42,455  INFO   HEADER : Host : 127.0.01:8080
+User-Agent : curl/7.61.0
+Accept : */*
+Content-Type : application/json
+Content-Length : 2
+ - ./src/server.cpp:287
+2018-08-07 22:32:42,455  INFO   FOUND_PATH : /GetBasicInformation - ./src/server.cpp:334
+2018-08-07 22:32:42,455  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getbalance", "params": [] } - ./src/server.cpp:459
+2018-08-07 22:32:42,457  INFO   CURL_RESULT : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:490
+2018-08-07 22:32:42,457  INFO   RESPONSE : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:357
+2018-08-07 22:32:42,457  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblockcount", "params": [] } - ./src/server.cpp:459
+2018-08-07 22:32:42,458  INFO   CURL_RESULT : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:490
+2018-08-07 22:32:42,458  INFO   RESPONSEqqqq : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:359
+2018-08-07 22:32:42,458  INFO   ------------------------------------ - ./src/server.cpp:360
+2018-08-07 22:32:42,458  INFO   RESPONSEnum : 46 - ./src/server.cpp:366
+2018-08-07 22:32:42,458  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblockhash", "params": [46] } - ./src/server.cpp:459
+2018-08-07 22:32:42,458  INFO   CURL_RESULT : {"result":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","error":null,"id":"curltest"}
+ - ./src/server.cpp:490
+2018-08-07 22:32:42,458  INFO   RESPONSEbbbb : {"result":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","error":null,"id":"curltest"}
+ - ./src/server.cpp:368
+2018-08-07 22:32:42,458  INFO   ------------------------------------------ - ./src/server.cpp:369
+2018-08-07 22:32:42,458  INFO   aaaaa : "000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159" - ./src/server.cpp:374
+2018-08-07 22:32:42,458  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblock", "params": ["000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159"] } - ./src/server.cpp:459
+2018-08-07 22:32:42,459  INFO   CURL_RESULT : {"result":{"hash":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","confirmations":1,"strippedsize":166,"size":166,"weight":664,"height":46,"version":536870912,"versionHex":"20000000","merkleroot":"3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e","tx":["3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e"],"time":1533283916,"mediantime":1533283046,"nonce":3665297152,"bits":"1d00ffff","difficulty":1,"chainwork":"0000000000000000000000000000000000000000000000000000002f002f002f","nTx":1,"previousblockhash":"00000000d9f3f9758ec053dc69cc8088a79c535097d63549858b0a1d4199691d"},"error":null,"id":"curltest"}
+ - ./src/server.cpp:490
+2018-08-07 22:32:42,459  INFO   RESPONSEdddddd : {"result":{"hash":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","confirmations":1,"strippedsize":166,"size":166,"weight":664,"height":46,"version":536870912,"versionHex":"20000000","merkleroot":"3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e","tx":["3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e"],"time":1533283916,"mediantime":1533283046,"nonce":3665297152,"bits":"1d00ffff","difficulty":1,"chainwork":"0000000000000000000000000000000000000000000000000000002f002f002f","nTx":1,"previousblockhash":"00000000d9f3f9758ec053dc69cc8088a79c535097d63549858b0a1d4199691d"},"error":null,"id":"curltest"}
+ - ./src/server.cpp:376
+2018-08-07 22:32:42,459  INFO   ------------------------------------- - ./src/server.cpp:378
+2018-08-07 22:32:42,459  INFO   json ::{"error":null,"id":"curltest","result":{"bits":"1d00ffff","chainwork":"0000000000000000000000000000000000000000000000000000002f002f002f","confirmations":1,"difficulty":1,"hash":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","height":46,"mediantime":1533283046,"merkleroot":"3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e","nTx":1,"nonce":3665297152,"previousblockhash":"00000000d9f3f9758ec053dc69cc8088a79c535097d63549858b0a1d4199691d","size":166,"strippedsize":166,"time":1533283916,"tx":["3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e"],"version":536870912,"versionHex":"20000000","weight":664}} - ./src/server.cpp:381
+2018-08-07 22:32:42,459  INFO   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ - ./src/server.cpp:10
+2018-08-07 22:37:40,841  INFO   ---  stop server  --- - ./src/main.cpp:52
+2018-08-07 22:40:20,045  INFO   ---  start server  --- - ./src/main.cpp:11
+2018-08-07 22:40:20,053  INFO   Registering HTTP handler for /GetBasicInformation - ./src/server.cpp:62
+2018-08-07 22:40:25,336  INFO   Received a POST request for /GetBasicInformation from  - ./src/server.cpp:286
+2018-08-07 22:40:25,336  INFO   HEADER : Host : 127.0.01:8080
+User-Agent : curl/7.61.0
+Accept : */*
+Content-Type : application/json
+Content-Length : 2
+ - ./src/server.cpp:287
+2018-08-07 22:40:25,348  INFO   FOUND_PATH : /GetBasicInformation - ./src/server.cpp:334
+2018-08-07 22:40:25,348  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getbalance", "params": [] } - ./src/server.cpp:463
+2018-08-07 22:40:25,351  INFO   CURL_RESULT : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:494
+2018-08-07 22:40:25,351  INFO   RESPONSE : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:357
+2018-08-07 22:40:25,351  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblockcount", "params": [] } - ./src/server.cpp:463
+2018-08-07 22:40:25,352  INFO   CURL_RESULT : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:494
+2018-08-07 22:40:25,352  INFO   RESPONSEqqqq : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:359
+2018-08-07 22:40:25,352  INFO   ------------------------------------ - ./src/server.cpp:360
+2018-08-07 22:40:25,352  INFO   RESPONSEnum : 46 - ./src/server.cpp:366
+2018-08-07 22:40:25,352  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblockhash", "params": [46] } - ./src/server.cpp:463
+2018-08-07 22:40:25,353  INFO   CURL_RESULT : {"result":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","error":null,"id":"curltest"}
+ - ./src/server.cpp:494
+2018-08-07 22:40:25,353  INFO   RESPONSEbbbb : {"result":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","error":null,"id":"curltest"}
+ - ./src/server.cpp:368
+2018-08-07 22:40:25,353  INFO   ------------------------------------------ - ./src/server.cpp:369
+2018-08-07 22:40:25,353  INFO   aaaaa : "000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159" - ./src/server.cpp:374
+2018-08-07 22:40:25,353  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblock", "params": ["000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159"] } - ./src/server.cpp:463
+2018-08-07 22:40:25,354  INFO   CURL_RESULT : {"result":{"hash":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","confirmations":1,"strippedsize":166,"size":166,"weight":664,"height":46,"version":536870912,"versionHex":"20000000","merkleroot":"3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e","tx":["3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e"],"time":1533283916,"mediantime":1533283046,"nonce":3665297152,"bits":"1d00ffff","difficulty":1,"chainwork":"0000000000000000000000000000000000000000000000000000002f002f002f","nTx":1,"previousblockhash":"00000000d9f3f9758ec053dc69cc8088a79c535097d63549858b0a1d4199691d"},"error":null,"id":"curltest"}
+ - ./src/server.cpp:494
+2018-08-07 22:40:25,354  INFO   RESPONSEdddddd : {"result":{"hash":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","confirmations":1,"strippedsize":166,"size":166,"weight":664,"height":46,"version":536870912,"versionHex":"20000000","merkleroot":"3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e","tx":["3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e"],"time":1533283916,"mediantime":1533283046,"nonce":3665297152,"bits":"1d00ffff","difficulty":1,"chainwork":"0000000000000000000000000000000000000000000000000000002f002f002f","nTx":1,"previousblockhash":"00000000d9f3f9758ec053dc69cc8088a79c535097d63549858b0a1d4199691d"},"error":null,"id":"curltest"}
+ - ./src/server.cpp:376
+2018-08-07 22:40:25,355  INFO   ------------------------------------- - ./src/server.cpp:378
+2018-08-07 22:40:25,355  INFO   json ::{"error":null,"id":"curltest","result":{"bits":"1d00ffff","chainwork":"0000000000000000000000000000000000000000000000000000002f002f002f","confirmations":1,"difficulty":1,"hash":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","height":46,"mediantime":1533283046,"merkleroot":"3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e","nTx":1,"nonce":3665297152,"previousblockhash":"00000000d9f3f9758ec053dc69cc8088a79c535097d63549858b0a1d4199691d","size":166,"strippedsize":166,"time":1533283916,"tx":["3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e"],"version":536870912,"versionHex":"20000000","weight":664}} - ./src/server.cpp:381
+2018-08-07 22:40:25,355  INFO   bbbbbbbb: {"bits":"1d00ffff","chainwork":"0000000000000000000000000000000000000000000000000000002f002f002f","confirmations":1,"difficulty":1,"hash":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","height":46,"mediantime":1533283046,"merkleroot":"3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e","nTx":1,"nonce":3665297152,"previousblockhash":"00000000d9f3f9758ec053dc69cc8088a79c535097d63549858b0a1d4199691d","size":166,"strippedsize":166,"time":1533283916,"tx":["3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e"],"version":536870912,"versionHex":"20000000","weight":664} - ./src/server.cpp:384
+2018-08-07 22:40:25,355  INFO   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ - ./src/server.cpp:10
+2018-08-07 22:41:37,687  INFO   ---  stop server  --- - ./src/main.cpp:52
+2018-08-07 22:42:40,520  INFO   ---  start server  --- - ./src/main.cpp:11
+2018-08-07 22:42:40,520  INFO   Registering HTTP handler for /GetBasicInformation - ./src/server.cpp:62
+2018-08-07 22:42:43,888  INFO   Received a POST request for /GetBasicInformation from  - ./src/server.cpp:286
+2018-08-07 22:42:43,888  INFO   HEADER : Host : 127.0.01:8080
+User-Agent : curl/7.61.0
+Accept : */*
+Content-Type : application/json
+Content-Length : 2
+ - ./src/server.cpp:287
+2018-08-07 22:42:43,888  INFO   FOUND_PATH : /GetBasicInformation - ./src/server.cpp:334
+2018-08-07 22:42:43,888  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getbalance", "params": [] } - ./src/server.cpp:463
+2018-08-07 22:42:43,891  INFO   CURL_RESULT : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:494
+2018-08-07 22:42:43,891  INFO   RESPONSE : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:357
+2018-08-07 22:42:43,891  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblockcount", "params": [] } - ./src/server.cpp:463
+2018-08-07 22:42:43,891  INFO   CURL_RESULT : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:494
+2018-08-07 22:42:43,891  INFO   RESPONSEqqqq : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:359
+2018-08-07 22:42:43,891  INFO   ------------------------------------ - ./src/server.cpp:360
+2018-08-07 22:42:43,891  INFO   RESPONSEnum : 46 - ./src/server.cpp:366
+2018-08-07 22:42:43,891  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblockhash", "params": [46] } - ./src/server.cpp:463
+2018-08-07 22:42:43,892  INFO   CURL_RESULT : {"result":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","error":null,"id":"curltest"}
+ - ./src/server.cpp:494
+2018-08-07 22:42:43,892  INFO   RESPONSEbbbb : {"result":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","error":null,"id":"curltest"}
+ - ./src/server.cpp:368
+2018-08-07 22:42:43,892  INFO   ------------------------------------------ - ./src/server.cpp:369
+2018-08-07 22:42:43,892  INFO   aaaaa : "000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159" - ./src/server.cpp:374
+2018-08-07 22:42:43,892  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblock", "params": ["000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159"] } - ./src/server.cpp:463
+2018-08-07 22:42:43,893  INFO   CURL_RESULT : {"result":{"hash":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","confirmations":1,"strippedsize":166,"size":166,"weight":664,"height":46,"version":536870912,"versionHex":"20000000","merkleroot":"3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e","tx":["3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e"],"time":1533283916,"mediantime":1533283046,"nonce":3665297152,"bits":"1d00ffff","difficulty":1,"chainwork":"0000000000000000000000000000000000000000000000000000002f002f002f","nTx":1,"previousblockhash":"00000000d9f3f9758ec053dc69cc8088a79c535097d63549858b0a1d4199691d"},"error":null,"id":"curltest"}
+ - ./src/server.cpp:494
+2018-08-07 22:42:43,893  INFO   RESPONSEdddddd : {"result":{"hash":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","confirmations":1,"strippedsize":166,"size":166,"weight":664,"height":46,"version":536870912,"versionHex":"20000000","merkleroot":"3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e","tx":["3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e"],"time":1533283916,"mediantime":1533283046,"nonce":3665297152,"bits":"1d00ffff","difficulty":1,"chainwork":"0000000000000000000000000000000000000000000000000000002f002f002f","nTx":1,"previousblockhash":"00000000d9f3f9758ec053dc69cc8088a79c535097d63549858b0a1d4199691d"},"error":null,"id":"curltest"}
+ - ./src/server.cpp:376
+2018-08-07 22:42:43,893  INFO   ------------------------------------- - ./src/server.cpp:378
+2018-08-07 22:42:43,893  INFO   json ::{"error":null,"id":"curltest","result":{"bits":"1d00ffff","chainwork":"0000000000000000000000000000000000000000000000000000002f002f002f","confirmations":1,"difficulty":1,"hash":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","height":46,"mediantime":1533283046,"merkleroot":"3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e","nTx":1,"nonce":3665297152,"previousblockhash":"00000000d9f3f9758ec053dc69cc8088a79c535097d63549858b0a1d4199691d","size":166,"strippedsize":166,"time":1533283916,"tx":["3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e"],"version":536870912,"versionHex":"20000000","weight":664}} - ./src/server.cpp:381
+2018-08-07 22:42:43,893  INFO   bbbbbbbb: {"bits":"1d00ffff","chainwork":"0000000000000000000000000000000000000000000000000000002f002f002f","confirmations":1,"difficulty":1,"hash":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","height":46,"mediantime":1533283046,"merkleroot":"3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e","nTx":1,"nonce":3665297152,"previousblockhash":"00000000d9f3f9758ec053dc69cc8088a79c535097d63549858b0a1d4199691d","size":166,"strippedsize":166,"time":1533283916,"tx":["3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e"],"version":536870912,"versionHex":"20000000","weight":664} - ./src/server.cpp:384
+2018-08-07 22:42:43,893  INFO   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ - ./src/server.cpp:10
+2018-08-07 22:43:54,752  INFO   ---  stop server  --- - ./src/main.cpp:52
+2018-08-07 22:44:09,610  INFO   ---  start server  --- - ./src/main.cpp:11
+2018-08-07 22:44:09,610  INFO   Registering HTTP handler for /GetBasicInformation - ./src/server.cpp:62
+2018-08-07 22:44:13,115  INFO   Received a POST request for /GetBasicInformation from  - ./src/server.cpp:286
+2018-08-07 22:44:13,115  INFO   HEADER : Host : 127.0.01:8080
+User-Agent : curl/7.61.0
+Accept : */*
+Content-Type : application/json
+Content-Length : 2
+ - ./src/server.cpp:287
+2018-08-07 22:44:13,115  INFO   FOUND_PATH : /GetBasicInformation - ./src/server.cpp:334
+2018-08-07 22:44:13,115  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getbalance", "params": [] } - ./src/server.cpp:463
+2018-08-07 22:44:13,117  INFO   CURL_RESULT : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:494
+2018-08-07 22:44:13,117  INFO   RESPONSE : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:357
+2018-08-07 22:44:13,117  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblockcount", "params": [] } - ./src/server.cpp:463
+2018-08-07 22:44:13,117  INFO   CURL_RESULT : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:494
+2018-08-07 22:44:13,117  INFO   RESPONSEqqqq : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:359
+2018-08-07 22:44:13,117  INFO   ------------------------------------ - ./src/server.cpp:360
+2018-08-07 22:44:13,117  INFO   RESPONSEnum : 46 - ./src/server.cpp:366
+2018-08-07 22:44:13,117  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblockhash", "params": [46] } - ./src/server.cpp:463
+2018-08-07 22:44:13,118  INFO   CURL_RESULT : {"result":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","error":null,"id":"curltest"}
+ - ./src/server.cpp:494
+2018-08-07 22:44:13,118  INFO   RESPONSEbbbb : {"result":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","error":null,"id":"curltest"}
+ - ./src/server.cpp:368
+2018-08-07 22:44:13,118  INFO   ------------------------------------------ - ./src/server.cpp:369
+2018-08-07 22:44:13,118  INFO   aaaaa : "000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159" - ./src/server.cpp:374
+2018-08-07 22:44:13,118  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblock", "params": ["000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159"] } - ./src/server.cpp:463
+2018-08-07 22:44:13,118  INFO   CURL_RESULT : {"result":{"hash":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","confirmations":1,"strippedsize":166,"size":166,"weight":664,"height":46,"version":536870912,"versionHex":"20000000","merkleroot":"3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e","tx":["3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e"],"time":1533283916,"mediantime":1533283046,"nonce":3665297152,"bits":"1d00ffff","difficulty":1,"chainwork":"0000000000000000000000000000000000000000000000000000002f002f002f","nTx":1,"previousblockhash":"00000000d9f3f9758ec053dc69cc8088a79c535097d63549858b0a1d4199691d"},"error":null,"id":"curltest"}
+ - ./src/server.cpp:494
+2018-08-07 22:44:13,118  INFO   RESPONSEdddddd : {"result":{"hash":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","confirmations":1,"strippedsize":166,"size":166,"weight":664,"height":46,"version":536870912,"versionHex":"20000000","merkleroot":"3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e","tx":["3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e"],"time":1533283916,"mediantime":1533283046,"nonce":3665297152,"bits":"1d00ffff","difficulty":1,"chainwork":"0000000000000000000000000000000000000000000000000000002f002f002f","nTx":1,"previousblockhash":"00000000d9f3f9758ec053dc69cc8088a79c535097d63549858b0a1d4199691d"},"error":null,"id":"curltest"}
+ - ./src/server.cpp:376
+2018-08-07 22:44:13,118  INFO   ------------------------------------- - ./src/server.cpp:378
+2018-08-07 22:44:13,119  INFO   json ::{"error":null,"id":"curltest","result":{"bits":"1d00ffff","chainwork":"0000000000000000000000000000000000000000000000000000002f002f002f","confirmations":1,"difficulty":1,"hash":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","height":46,"mediantime":1533283046,"merkleroot":"3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e","nTx":1,"nonce":3665297152,"previousblockhash":"00000000d9f3f9758ec053dc69cc8088a79c535097d63549858b0a1d4199691d","size":166,"strippedsize":166,"time":1533283916,"tx":["3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e"],"version":536870912,"versionHex":"20000000","weight":664}} - ./src/server.cpp:381
+2018-08-07 22:44:13,119  INFO   bbbbbbbb: {"bits":"1d00ffff","chainwork":"0000000000000000000000000000000000000000000000000000002f002f002f","confirmations":1,"difficulty":1,"hash":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","height":46,"mediantime":1533283046,"merkleroot":"3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e","nTx":1,"nonce":3665297152,"previousblockhash":"00000000d9f3f9758ec053dc69cc8088a79c535097d63549858b0a1d4199691d","size":166,"strippedsize":166,"time":1533283916,"tx":["3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e"],"version":536870912,"versionHex":"20000000","weight":664} - ./src/server.cpp:384
+2018-08-07 22:44:13,119  INFO   time ::1533283916 - ./src/server.cpp:392
+2018-08-07 22:44:13,119  INFO   ------------------------------------- - ./src/server.cpp:393
+2018-08-07 22:44:13,119  INFO   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ - ./src/server.cpp:10
+2018-08-07 22:51:35,551  INFO   ---  stop server  --- - ./src/main.cpp:52
+2018-08-07 22:58:38,626  INFO   ---  start server  --- - ./src/main.cpp:11
+2018-08-07 22:58:38,627  INFO   Registering HTTP handler for /GetBasicInformation - ./src/server.cpp:62
+2018-08-07 22:58:41,739  INFO   Received a POST request for /GetBasicInformation from  - ./src/server.cpp:286
+2018-08-07 22:58:41,739  INFO   HEADER : Host : 127.0.01:8080
+User-Agent : curl/7.61.0
+Accept : */*
+Content-Type : application/json
+Content-Length : 2
+ - ./src/server.cpp:287
+2018-08-07 22:58:41,740  INFO   FOUND_PATH : /GetBasicInformation - ./src/server.cpp:334
+2018-08-07 22:58:41,740  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getbalance", "params": [] } - ./src/server.cpp:470
+2018-08-07 22:58:41,742  INFO   CURL_RESULT : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:501
+2018-08-07 22:58:41,742  INFO   RESPONSE : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:357
+2018-08-07 22:58:41,742  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblockcount", "params": [] } - ./src/server.cpp:470
+2018-08-07 22:58:41,742  INFO   CURL_RESULT : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:501
+2018-08-07 22:58:41,742  INFO   RESPONSEqqqq : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:359
+2018-08-07 22:58:41,742  INFO   ------------------------------------ - ./src/server.cpp:360
+2018-08-07 22:58:41,742  INFO   RESPONSEnum : 46 - ./src/server.cpp:366
+2018-08-07 22:58:41,742  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblockhash", "params": [46] } - ./src/server.cpp:470
+2018-08-07 22:58:41,743  INFO   CURL_RESULT : {"result":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","error":null,"id":"curltest"}
+ - ./src/server.cpp:501
+2018-08-07 22:58:41,743  INFO   RESPONSEbbbb : {"result":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","error":null,"id":"curltest"}
+ - ./src/server.cpp:368
+2018-08-07 22:58:41,743  INFO   ------------------------------------------ - ./src/server.cpp:369
+2018-08-07 22:58:41,743  INFO   aaaaa : "000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159" - ./src/server.cpp:374
+2018-08-07 22:58:41,743  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblock", "params": ["000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159"] } - ./src/server.cpp:470
+2018-08-07 22:58:41,744  INFO   CURL_RESULT : {"result":{"hash":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","confirmations":1,"strippedsize":166,"size":166,"weight":664,"height":46,"version":536870912,"versionHex":"20000000","merkleroot":"3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e","tx":["3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e"],"time":1533283916,"mediantime":1533283046,"nonce":3665297152,"bits":"1d00ffff","difficulty":1,"chainwork":"0000000000000000000000000000000000000000000000000000002f002f002f","nTx":1,"previousblockhash":"00000000d9f3f9758ec053dc69cc8088a79c535097d63549858b0a1d4199691d"},"error":null,"id":"curltest"}
+ - ./src/server.cpp:501
+2018-08-07 22:58:41,744  INFO   RESPONSEdddddd : {"result":{"hash":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","confirmations":1,"strippedsize":166,"size":166,"weight":664,"height":46,"version":536870912,"versionHex":"20000000","merkleroot":"3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e","tx":["3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e"],"time":1533283916,"mediantime":1533283046,"nonce":3665297152,"bits":"1d00ffff","difficulty":1,"chainwork":"0000000000000000000000000000000000000000000000000000002f002f002f","nTx":1,"previousblockhash":"00000000d9f3f9758ec053dc69cc8088a79c535097d63549858b0a1d4199691d"},"error":null,"id":"curltest"}
+ - ./src/server.cpp:376
+2018-08-07 22:58:41,744  INFO   ------------------------------------- - ./src/server.cpp:378
+2018-08-07 22:58:41,744  INFO   json ::{"error":null,"id":"curltest","result":{"bits":"1d00ffff","chainwork":"0000000000000000000000000000000000000000000000000000002f002f002f","confirmations":1,"difficulty":1,"hash":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","height":46,"mediantime":1533283046,"merkleroot":"3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e","nTx":1,"nonce":3665297152,"previousblockhash":"00000000d9f3f9758ec053dc69cc8088a79c535097d63549858b0a1d4199691d","size":166,"strippedsize":166,"time":1533283916,"tx":["3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e"],"version":536870912,"versionHex":"20000000","weight":664}} - ./src/server.cpp:381
+2018-08-07 22:58:41,744  INFO   bbbbbbbb: {"bits":"1d00ffff","chainwork":"0000000000000000000000000000000000000000000000000000002f002f002f","confirmations":1,"difficulty":1,"hash":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","height":46,"mediantime":1533283046,"merkleroot":"3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e","nTx":1,"nonce":3665297152,"previousblockhash":"00000000d9f3f9758ec053dc69cc8088a79c535097d63549858b0a1d4199691d","size":166,"strippedsize":166,"time":1533283916,"tx":["3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e"],"version":536870912,"versionHex":"20000000","weight":664} - ./src/server.cpp:384
+2018-08-07 22:58:41,744  INFO   time ::1533283916 - ./src/server.cpp:392
+2018-08-07 22:58:41,744  INFO   ------------------------------------- - ./src/server.cpp:393
+2018-08-07 22:58:41,744  INFO   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ - ./src/server.cpp:10
+2018-08-07 23:00:49,840  INFO   ---  stop server  --- - ./src/main.cpp:52

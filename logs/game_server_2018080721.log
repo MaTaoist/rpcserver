@@ -1,0 +1,302 @@
+2018-08-07 21:02:15,489  INFO   ---  start server  --- - ./src/main.cpp:11
+2018-08-07 21:02:15,489  INFO   Registering HTTP handler for /GetBasicInformation - ./src/server.cpp:62
+2018-08-07 21:02:23,271  INFO   Received a POST request for /GetBasicInformation from  - ./src/server.cpp:286
+2018-08-07 21:02:23,271  INFO   HEADER : Host : 127.0.01:8080
+User-Agent : curl/7.61.0
+Accept : */*
+Content-Type : application/json
+Content-Length : 2
+ - ./src/server.cpp:287
+2018-08-07 21:02:23,271  INFO   FOUND_PATH : /GetBasicInformation - ./src/server.cpp:334
+2018-08-07 21:02:23,275  INFO   CURL_RESULT : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:473
+2018-08-07 21:02:23,275  INFO   RESPONSE : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:357
+2018-08-07 21:02:23,275  INFO   CURL_RESULT : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:473
+2018-08-07 21:02:23,275  INFO   RESPONSEqqqq : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:359
+2018-08-07 21:02:23,275  INFO   RESPONSEnum : 46 - ./src/server.cpp:365
+2018-08-07 21:02:23,276  INFO   CURL_RESULT : {"result":null,"error":{"code":-32700,"message":"Parse error"},"id":null}
+ - ./src/server.cpp:473
+2018-08-07 21:02:23,276  INFO   RESPONSEbbbb : {"result":null,"error":{"code":-32700,"message":"Parse error"},"id":null}
+ - ./src/server.cpp:367
+2018-08-07 21:02:23,276  INFO   CURL_RESULT : {"result":null,"error":{"code":-32700,"message":"Parse error"},"id":null}
+ - ./src/server.cpp:473
+2018-08-07 21:02:23,276  INFO   RESPONSEdddddd : {"result":null,"error":{"code":-32700,"message":"Parse error"},"id":null}
+ - ./src/server.cpp:371
+2018-08-07 21:02:23,276  INFO   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ - ./src/server.cpp:10
+2018-08-07 21:04:36,319  INFO   ---  stop server  --- - ./src/main.cpp:52
+2018-08-07 21:04:53,631  INFO   ---  start server  --- - ./src/main.cpp:11
+2018-08-07 21:04:53,631  INFO   Registering HTTP handler for /GetBasicInformation - ./src/server.cpp:62
+2018-08-07 21:04:57,978  INFO   Received a POST request for /GetBasicInformation from  - ./src/server.cpp:286
+2018-08-07 21:04:57,978  INFO   HEADER : Host : 127.0.01:8080
+User-Agent : curl/7.61.0
+Accept : */*
+Content-Type : application/json
+Content-Length : 2
+ - ./src/server.cpp:287
+2018-08-07 21:04:57,978  INFO   FOUND_PATH : /GetBasicInformation - ./src/server.cpp:334
+2018-08-07 21:04:57,978  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getbalance", "params": [] } - ./src/server.cpp:443
+2018-08-07 21:04:57,981  INFO   CURL_RESULT : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:474
+2018-08-07 21:04:57,981  INFO   RESPONSE : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:357
+2018-08-07 21:04:57,981  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblockcount", "params": [] } - ./src/server.cpp:443
+2018-08-07 21:04:57,981  INFO   CURL_RESULT : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:474
+2018-08-07 21:04:57,981  INFO   RESPONSEqqqq : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:359
+2018-08-07 21:04:57,981  INFO   RESPONSEnum : 46 - ./src/server.cpp:365
+2018-08-07 21:04:57,981  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblockhash", "params": [blockcount] } - ./src/server.cpp:443
+2018-08-07 21:04:57,981  INFO   CURL_RESULT : {"result":null,"error":{"code":-32700,"message":"Parse error"},"id":null}
+ - ./src/server.cpp:474
+2018-08-07 21:04:57,981  INFO   RESPONSEbbbb : {"result":null,"error":{"code":-32700,"message":"Parse error"},"id":null}
+ - ./src/server.cpp:367
+2018-08-07 21:04:57,981  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblock", "params": ["{"result":null,"error":{"code":-32700,"message":"Parse error"},"id":null}
+"] } - ./src/server.cpp:443
+2018-08-07 21:04:57,982  INFO   CURL_RESULT : {"result":null,"error":{"code":-32700,"message":"Parse error"},"id":null}
+ - ./src/server.cpp:474
+2018-08-07 21:04:57,982  INFO   RESPONSEdddddd : {"result":null,"error":{"code":-32700,"message":"Parse error"},"id":null}
+ - ./src/server.cpp:371
+2018-08-07 21:04:57,982  INFO   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ - ./src/server.cpp:10
+2018-08-07 21:08:01,246  INFO   ---  stop server  --- - ./src/main.cpp:52
+2018-08-07 21:12:43,674  INFO   ---  start server  --- - ./src/main.cpp:11
+2018-08-07 21:12:43,674  INFO   Registering HTTP handler for /GetBasicInformation - ./src/server.cpp:62
+2018-08-07 21:12:48,909  INFO   Received a POST request for /GetBasicInformation from  - ./src/server.cpp:286
+2018-08-07 21:12:48,909  INFO   HEADER : Host : 127.0.01:8080
+User-Agent : curl/7.61.0
+Accept : */*
+Content-Type : application/json
+Content-Length : 2
+ - ./src/server.cpp:287
+2018-08-07 21:12:48,910  INFO   FOUND_PATH : /GetBasicInformation - ./src/server.cpp:334
+2018-08-07 21:12:48,910  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getbalance", "params": [] } - ./src/server.cpp:443
+2018-08-07 21:12:48,911  INFO   CURL_RESULT : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:474
+2018-08-07 21:12:48,911  INFO   RESPONSE : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:357
+2018-08-07 21:12:48,911  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblockcount", "params": [] } - ./src/server.cpp:443
+2018-08-07 21:12:48,912  INFO   CURL_RESULT : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:474
+2018-08-07 21:12:48,912  INFO   RESPONSEqqqq : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:359
+2018-08-07 21:12:48,912  INFO   RESPONSEnum : 46 - ./src/server.cpp:365
+2018-08-07 21:12:48,912  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblockhash", "params": ["46"] } - ./src/server.cpp:443
+2018-08-07 21:12:48,912  INFO   CURL_RESULT : {"result":null,"error":{"code":-1,"message":"JSON value is not an integer as expected"},"id":"curltest"}
+ - ./src/server.cpp:474
+2018-08-07 21:12:48,912  INFO   RESPONSEbbbb : {"result":null,"error":{"code":-1,"message":"JSON value is not an integer as expected"},"id":"curltest"}
+ - ./src/server.cpp:367
+2018-08-07 21:12:48,912  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblock", "params": ["{"result":null,"error":{"code":-1,"message":"JSON value is not an integer as expected"},"id":"curltest"}
+"] } - ./src/server.cpp:443
+2018-08-07 21:12:48,913  INFO   CURL_RESULT : {"result":null,"error":{"code":-32700,"message":"Parse error"},"id":null}
+ - ./src/server.cpp:474
+2018-08-07 21:12:48,913  INFO   RESPONSEdddddd : {"result":null,"error":{"code":-32700,"message":"Parse error"},"id":null}
+ - ./src/server.cpp:371
+2018-08-07 21:12:48,913  INFO   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ - ./src/server.cpp:10
+2018-08-07 21:15:47,377  INFO   ---  stop server  --- - ./src/main.cpp:52
+2018-08-07 21:16:04,759  INFO   ---  start server  --- - ./src/main.cpp:11
+2018-08-07 21:16:04,759  INFO   Registering HTTP handler for /GetBasicInformation - ./src/server.cpp:62
+2018-08-07 21:16:12,311  INFO   Received a POST request for /GetBasicInformation from  - ./src/server.cpp:286
+2018-08-07 21:16:12,311  INFO   HEADER : Host : 127.0.01:8080
+User-Agent : curl/7.61.0
+Accept : */*
+Content-Type : application/json
+Content-Length : 2
+ - ./src/server.cpp:287
+2018-08-07 21:16:12,311  INFO   FOUND_PATH : /GetBasicInformation - ./src/server.cpp:334
+2018-08-07 21:16:12,311  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getbalance", "params": [] } - ./src/server.cpp:443
+2018-08-07 21:16:12,314  INFO   CURL_RESULT : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:474
+2018-08-07 21:16:12,314  INFO   RESPONSE : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:357
+2018-08-07 21:16:12,314  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblockcount", "params": [] } - ./src/server.cpp:443
+2018-08-07 21:16:12,314  INFO   CURL_RESULT : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:474
+2018-08-07 21:16:12,314  INFO   RESPONSEqqqq : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:359
+2018-08-07 21:16:12,314  INFO   RESPONSEnum : 46 - ./src/server.cpp:365
+2018-08-07 21:16:12,314  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblockhash", "params": [46] } - ./src/server.cpp:443
+2018-08-07 21:16:12,315  INFO   CURL_RESULT : {"result":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","error":null,"id":"curltest"}
+ - ./src/server.cpp:474
+2018-08-07 21:16:12,315  INFO   RESPONSEbbbb : {"result":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","error":null,"id":"curltest"}
+ - ./src/server.cpp:367
+2018-08-07 21:16:12,315  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblock", "params": ["{"result":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","error":null,"id":"curltest"}
+"] } - ./src/server.cpp:443
+2018-08-07 21:16:12,315  INFO   CURL_RESULT : {"result":null,"error":{"code":-32700,"message":"Parse error"},"id":null}
+ - ./src/server.cpp:474
+2018-08-07 21:16:12,316  INFO   RESPONSEdddddd : {"result":null,"error":{"code":-32700,"message":"Parse error"},"id":null}
+ - ./src/server.cpp:371
+2018-08-07 21:16:12,316  INFO   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ - ./src/server.cpp:10
+2018-08-07 21:25:50,883  INFO   ---  stop server  --- - ./src/main.cpp:52
+2018-08-07 21:35:17,237  INFO   ---  start server  --- - ./src/main.cpp:11
+2018-08-07 21:35:17,237  INFO   Registering HTTP handler for /GetBasicInformation - ./src/server.cpp:62
+2018-08-07 21:35:21,091  INFO   Received a POST request for /GetBasicInformation from  - ./src/server.cpp:286
+2018-08-07 21:35:21,091  INFO   HEADER : Host : 127.0.01:8080
+User-Agent : curl/7.61.0
+Accept : */*
+Content-Type : application/json
+Content-Length : 2
+ - ./src/server.cpp:287
+2018-08-07 21:35:21,091  INFO   FOUND_PATH : /GetBasicInformation - ./src/server.cpp:334
+2018-08-07 21:35:21,091  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getbalance", "params": [] } - ./src/server.cpp:444
+2018-08-07 21:35:21,093  INFO   CURL_RESULT : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:475
+2018-08-07 21:35:21,093  INFO   RESPONSE : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:357
+2018-08-07 21:35:21,093  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblockcount", "params": [] } - ./src/server.cpp:444
+2018-08-07 21:35:21,093  INFO   CURL_RESULT : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:475
+2018-08-07 21:35:21,093  INFO   RESPONSEqqqq : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:359
+2018-08-07 21:35:21,093  INFO   RESPONSEnum : 46 - ./src/server.cpp:365
+2018-08-07 21:35:21,094  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblockhash", "params": [46] } - ./src/server.cpp:444
+2018-08-07 21:35:21,094  INFO   CURL_RESULT : {"result":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","error":null,"id":"curltest"}
+ - ./src/server.cpp:475
+2018-08-07 21:35:21,094  INFO   RESPONSEbbbb : {"result":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","error":null,"id":"curltest"}
+ - ./src/server.cpp:367
+2018-08-07 21:35:21,094  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblock", "params": [000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159] } - ./src/server.cpp:444
+2018-08-07 21:35:21,095  INFO   CURL_RESULT : {"result":null,"error":{"code":-32700,"message":"Parse error"},"id":null}
+ - ./src/server.cpp:475
+2018-08-07 21:35:21,095  INFO   RESPONSEdddddd : {"result":null,"error":{"code":-32700,"message":"Parse error"},"id":null}
+ - ./src/server.cpp:372
+2018-08-07 21:35:21,095  INFO   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ - ./src/server.cpp:10
+2018-08-07 21:38:01,996  INFO   ---  stop server  --- - ./src/main.cpp:52
+2018-08-07 21:38:14,065  INFO   ---  start server  --- - ./src/main.cpp:11
+2018-08-07 21:38:14,065  INFO   Registering HTTP handler for /GetBasicInformation - ./src/server.cpp:62
+2018-08-07 21:38:17,276  INFO   Received a POST request for /GetBasicInformation from  - ./src/server.cpp:286
+2018-08-07 21:38:17,276  INFO   HEADER : Host : 127.0.01:8080
+User-Agent : curl/7.61.0
+Accept : */*
+Content-Type : application/json
+Content-Length : 2
+ - ./src/server.cpp:287
+2018-08-07 21:38:17,276  INFO   FOUND_PATH : /GetBasicInformation - ./src/server.cpp:334
+2018-08-07 21:38:17,276  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getbalance", "params": [] } - ./src/server.cpp:448
+2018-08-07 21:38:17,278  INFO   CURL_RESULT : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:479
+2018-08-07 21:38:17,278  INFO   RESPONSE : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:357
+2018-08-07 21:38:17,278  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblockcount", "params": [] } - ./src/server.cpp:448
+2018-08-07 21:38:17,279  INFO   CURL_RESULT : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:479
+2018-08-07 21:38:17,279  INFO   RESPONSEqqqq : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:359
+2018-08-07 21:38:17,279  INFO   RESPONSEqqqq : ------------------------------------ - ./src/server.cpp:360
+2018-08-07 21:38:17,279  INFO   RESPONSEnum : 46 - ./src/server.cpp:366
+2018-08-07 21:38:17,279  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblockhash", "params": [46] } - ./src/server.cpp:448
+2018-08-07 21:38:17,279  INFO   CURL_RESULT : {"result":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","error":null,"id":"curltest"}
+ - ./src/server.cpp:479
+2018-08-07 21:38:17,279  INFO   RESPONSEbbbb : {"result":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","error":null,"id":"curltest"}
+ - ./src/server.cpp:368
+2018-08-07 21:38:17,279  INFO   RESPONSEbbbb : ------------------------------------------ - ./src/server.cpp:369
+2018-08-07 21:38:17,279  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblock", "params": [000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159] } - ./src/server.cpp:448
+2018-08-07 21:38:17,280  INFO   CURL_RESULT : {"result":null,"error":{"code":-32700,"message":"Parse error"},"id":null}
+ - ./src/server.cpp:479
+2018-08-07 21:38:17,280  INFO   RESPONSEdddddd : {"result":null,"error":{"code":-32700,"message":"Parse error"},"id":null}
+ - ./src/server.cpp:374
+2018-08-07 21:38:17,280  INFO   RESPONSEdddddd : ------------------------------------- - ./src/server.cpp:376
+2018-08-07 21:38:17,280  INFO   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ - ./src/server.cpp:10
+2018-08-07 21:39:42,080  INFO   ---  stop server  --- - ./src/main.cpp:52
+2018-08-07 21:39:54,263  INFO   ---  start server  --- - ./src/main.cpp:11
+2018-08-07 21:39:54,263  INFO   Registering HTTP handler for /GetBasicInformation - ./src/server.cpp:62
+2018-08-07 21:40:00,333  INFO   Received a POST request for /GetBasicInformation from  - ./src/server.cpp:286
+2018-08-07 21:40:00,333  INFO   HEADER : Host : 127.0.01:8080
+User-Agent : curl/7.61.0
+Accept : */*
+Content-Type : application/json
+Content-Length : 2
+ - ./src/server.cpp:287
+2018-08-07 21:40:00,333  INFO   FOUND_PATH : /GetBasicInformation - ./src/server.cpp:334
+2018-08-07 21:40:00,333  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getbalance", "params": [] } - ./src/server.cpp:448
+2018-08-07 21:40:00,335  INFO   CURL_RESULT : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:479
+2018-08-07 21:40:00,335  INFO   RESPONSE : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:357
+2018-08-07 21:40:00,335  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblockcount", "params": [] } - ./src/server.cpp:448
+2018-08-07 21:40:00,336  INFO   CURL_RESULT : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:479
+2018-08-07 21:40:00,336  INFO   RESPONSEqqqq : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:359
+2018-08-07 21:40:00,336  INFO   RESPONSEqqqq : ------------------------------------ - ./src/server.cpp:360
+2018-08-07 21:40:00,336  INFO   RESPONSEnum : 46 - ./src/server.cpp:366
+2018-08-07 21:40:00,336  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblockhash", "params": [46] } - ./src/server.cpp:448
+2018-08-07 21:40:00,336  INFO   CURL_RESULT : {"result":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","error":null,"id":"curltest"}
+ - ./src/server.cpp:479
+2018-08-07 21:40:00,336  INFO   RESPONSEbbbb : {"result":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","error":null,"id":"curltest"}
+ - ./src/server.cpp:368
+2018-08-07 21:40:00,336  INFO   RESPONSEbbbb : ------------------------------------------ - ./src/server.cpp:369
+2018-08-07 21:40:00,336  INFO   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ - ./src/server.cpp:10
+2018-08-07 21:42:05,287  INFO   ---  stop server  --- - ./src/main.cpp:52
+2018-08-07 21:43:11,550  INFO   ---  start server  --- - ./src/main.cpp:11
+2018-08-07 21:43:11,550  INFO   Registering HTTP handler for /GetBasicInformation - ./src/server.cpp:62
+2018-08-07 21:43:15,549  INFO   Received a POST request for /GetBasicInformation from  - ./src/server.cpp:286
+2018-08-07 21:43:15,549  INFO   HEADER : Host : 127.0.01:8080
+User-Agent : curl/7.61.0
+Accept : */*
+Content-Type : application/json
+Content-Length : 2
+ - ./src/server.cpp:287
+2018-08-07 21:43:15,549  INFO   FOUND_PATH : /GetBasicInformation - ./src/server.cpp:334
+2018-08-07 21:43:15,549  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getbalance", "params": [] } - ./src/server.cpp:448
+2018-08-07 21:43:15,552  INFO   CURL_RESULT : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:479
+2018-08-07 21:43:15,552  INFO   RESPONSE : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:357
+2018-08-07 21:43:15,552  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblockcount", "params": [] } - ./src/server.cpp:448
+2018-08-07 21:43:15,552  INFO   CURL_RESULT : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:479
+2018-08-07 21:43:15,552  INFO   RESPONSEqqqq : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:359
+2018-08-07 21:43:15,552  INFO   ------------------------------------ - ./src/server.cpp:360
+2018-08-07 21:43:15,552  INFO   RESPONSEnum : 46 - ./src/server.cpp:366
+2018-08-07 21:43:15,552  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblockhash", "params": [46] } - ./src/server.cpp:448
+2018-08-07 21:43:15,553  INFO   CURL_RESULT : {"result":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","error":null,"id":"curltest"}
+ - ./src/server.cpp:479
+2018-08-07 21:43:15,553  INFO   RESPONSEbbbb : {"result":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","error":null,"id":"curltest"}
+ - ./src/server.cpp:368
+2018-08-07 21:43:15,553  INFO   ------------------------------------------ - ./src/server.cpp:369
+2018-08-07 21:43:15,553  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblock", "params": [000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159] } - ./src/server.cpp:448
+2018-08-07 21:43:15,553  INFO   CURL_RESULT : {"result":null,"error":{"code":-32700,"message":"Parse error"},"id":null}
+ - ./src/server.cpp:479
+2018-08-07 21:43:15,553  INFO   RESPONSEdddddd : {"result":null,"error":{"code":-32700,"message":"Parse error"},"id":null}
+ - ./src/server.cpp:374
+2018-08-07 21:43:15,553  INFO   ------------------------------------- - ./src/server.cpp:376
+2018-08-07 21:43:15,553  INFO   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ - ./src/server.cpp:10
+2018-08-07 21:47:24,380  INFO   ---  stop server  --- - ./src/main.cpp:52
+2018-08-07 21:47:53,368  INFO   ---  start server  --- - ./src/main.cpp:11
+2018-08-07 21:47:53,368  INFO   Registering HTTP handler for /GetBasicInformation - ./src/server.cpp:62
+2018-08-07 21:48:02,785  INFO   Received a POST request for /GetBasicInformation from  - ./src/server.cpp:286
+2018-08-07 21:48:02,785  INFO   HEADER : Host : 127.0.01:8080
+User-Agent : curl/7.61.0
+Accept : */*
+Content-Type : application/json
+Content-Length : 2
+ - ./src/server.cpp:287
+2018-08-07 21:48:02,785  INFO   FOUND_PATH : /GetBasicInformation - ./src/server.cpp:334
+2018-08-07 21:48:02,785  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getbalance", "params": [] } - ./src/server.cpp:448
+2018-08-07 21:48:02,787  INFO   CURL_RESULT : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:479
+2018-08-07 21:48:02,787  INFO   RESPONSE : {"result":1800.00000000,"error":null,"id":"curltest"}
+ - ./src/server.cpp:357
+2018-08-07 21:48:02,787  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblockcount", "params": [] } - ./src/server.cpp:448
+2018-08-07 21:48:02,787  INFO   CURL_RESULT : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:479
+2018-08-07 21:48:02,787  INFO   RESPONSEqqqq : {"result":46,"error":null,"id":"curltest"}
+ - ./src/server.cpp:359
+2018-08-07 21:48:02,787  INFO   ------------------------------------ - ./src/server.cpp:360
+2018-08-07 21:48:02,787  INFO   RESPONSEnum : 46 - ./src/server.cpp:366
+2018-08-07 21:48:02,787  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblockhash", "params": [46] } - ./src/server.cpp:448
+2018-08-07 21:48:02,788  INFO   CURL_RESULT : {"result":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","error":null,"id":"curltest"}
+ - ./src/server.cpp:479
+2018-08-07 21:48:02,788  INFO   RESPONSEbbbb : {"result":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","error":null,"id":"curltest"}
+ - ./src/server.cpp:368
+2018-08-07 21:48:02,788  INFO   ------------------------------------------ - ./src/server.cpp:369
+2018-08-07 21:48:02,788  INFO   CURL_data : {"jsonrpc": "1.0", "id":"curltest", "method": "getblock", "params": ["000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159"] } - ./src/server.cpp:448
+2018-08-07 21:48:02,788  INFO   CURL_RESULT : {"result":{"hash":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","confirmations":1,"strippedsize":166,"size":166,"weight":664,"height":46,"version":536870912,"versionHex":"20000000","merkleroot":"3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e","tx":["3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e"],"time":1533283916,"mediantime":1533283046,"nonce":3665297152,"bits":"1d00ffff","difficulty":1,"chainwork":"0000000000000000000000000000000000000000000000000000002f002f002f","nTx":1,"previousblockhash":"00000000d9f3f9758ec053dc69cc8088a79c535097d63549858b0a1d4199691d"},"error":null,"id":"curltest"}
+ - ./src/server.cpp:479
+2018-08-07 21:48:02,788  INFO   RESPONSEdddddd : {"result":{"hash":"000000008505363ec9eb5bcc608b5eccdf5884289db83bd384de33bf0f027159","confirmations":1,"strippedsize":166,"size":166,"weight":664,"height":46,"version":536870912,"versionHex":"20000000","merkleroot":"3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e","tx":["3ede6dd54be7e7dca0594b8fc5080fcda2edc82cc5a551a8ce3bfbe5b653bf1e"],"time":1533283916,"mediantime":1533283046,"nonce":3665297152,"bits":"1d00ffff","difficulty":1,"chainwork":"0000000000000000000000000000000000000000000000000000002f002f002f","nTx":1,"previousblockhash":"00000000d9f3f9758ec053dc69cc8088a79c535097d63549858b0a1d4199691d"},"error":null,"id":"curltest"}
+ - ./src/server.cpp:374
+2018-08-07 21:48:02,788  INFO   ------------------------------------- - ./src/server.cpp:376
+2018-08-07 21:48:02,788  INFO   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ - ./src/server.cpp:10
+2018-08-07 21:49:27,463  INFO   ---  stop server  --- - ./src/main.cpp:52
